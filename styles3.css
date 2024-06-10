@@ -1,0 +1,100 @@
+body {
+    background-image: url("Ori’s New Version of Its Drop-Down Cloud Bed Integrates a Work-From-Home Desk.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    
+   
+}
+
+
+body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.registration {
+    margin: 10px auto;
+    padding: 14px;
+    width: 40%;
+    height: max-content;
+    background-color: #8f8787;
+    color: #2b2b28;
+    z-index: 2;
+    position: relative;
+    box-shadow: inherit;
+    border: 1px solid #8f8787;
+    border-radius:3px;
+}
+
+
+
+textbox{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left:4px;
+    padding: 4px;
+    width: 70%;
+    height:12px;
+    border: 1px solid #8f8787;
+    border-radius:2px;
+}
+
+label {
+    margin-top: 4px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+}
+
+#details {
+    background-color:#4a4a48;
+    color: azure;
+    padding:8px;
+    width:50%;
+    margin-top:3px;
+}
+
+.check-box{
+    display:flex;
+
+}
+.checkbox-list label {
+    margin-right: 20px; 
+}
+
+#navbar {
+    background-color: #5c4d4d;
+    overflow: hidden;
+   
+}
+
+#navbar a {
+        float: left;
+        display: block;
+        color: azure;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      
+    }
+
+#navbar a:hover {
+        background-color: #915b4a;
+    }
+
+.panel{
+    position:absolute;
+    right:0;
+    top:20%;
+    margin-left:10px;
+}
